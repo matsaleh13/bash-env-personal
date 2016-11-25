@@ -1,0 +1,2 @@
+#!/bin/bash
+awk '{ print strftime("%F %T%z"), $0; fflush(); }'
